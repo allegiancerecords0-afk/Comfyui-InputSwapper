@@ -28,7 +28,7 @@ class InputSwapper:
     RETURN_TYPES = (any_type, any_type)
     RETURN_NAMES = ("output1", "output2")
     FUNCTION = "execute"
-    CATEGORY = "utils"          # You can change this to any category you like
+    CATEGORY = "ComfyUI-InputSwapper"          # You can change this to any category you like
 
     def execute(self, input1, input2, swap=False):
         if swap:
