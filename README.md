@@ -1,0 +1,1 @@
+In a dual sampler workflow with mixture of experts setup where one model provides the early steps and another provides the late steps, it may be useful to switch the order of the models. Before this node the best I could find was a series of overly complicated logic gates. This is simple and clean in one node.
